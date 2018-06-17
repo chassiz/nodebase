@@ -20,7 +20,7 @@
 			<!-- Start page content -->
             <div class="page-content-wrapper">
                 <div class="page-content">
-                    <?php include 'pagebar.php'; ?>
+                    <?php include 'pagebar.php'; ?> test
                     <!-- start widget -->
 					<?php include 'widgets_home_bryan.php'; ?>
 					<!-- end widget -->
