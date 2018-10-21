@@ -1,45 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- BEGIN HEAD -->
-<?php include 'head.php'; ?>
- <!-- END HEAD -->
-<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white dark-sidebar-color logo-dark">
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-<?php include 'variables.php'; ?>
-	
-    <div class="page-wrapper">
-      <!-- start header -->
-      <?php include 'header.php'; ?>
-      <!-- end header -->
-        <!-- start page container -->
-        <div class="page-container">
- 			<!-- start sidebar menu -->
- 			<?php include 'sidebar_menu.php'; ?>
-            <!-- end sidebar menu --> 
-			
-			<!-- Start page content -->
-            <div class="page-content-wrapper">
-                <div class="page-content">
-                    <?php include 'pagebar.php'; ?>
-                    <!-- start widget -->
-					<?php include 'widgets_home.php'; ?>
-					<!-- end widget -->
-                     <!-- chart start -->
-                    <?php include 'charts_home.php'; ?>
-                     <!-- Chart end -->
-            <!-- End page content -->
-            
-            <!-- Start chat sidebar -->
-           <?php include 'sidebar_chat.php'; ?>
-            <!-- end chat sidebar -->
-        </div>
-        <!-- end page container -->
-        <!-- start footer -->
-       <?php include 'footer.php'; ?>
-        <!-- end footer -->
-    </div>
-    <!-- start js include path -->
-    <?php include 'footer_js.php'; ?>
-    <!-- end js include path -->
-  </body>
-</html>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );

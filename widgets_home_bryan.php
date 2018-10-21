@@ -43,7 +43,7 @@
   
 							<div class="row">
 						        <div class="col-xl-3 col-md-6 col-12">
-						          <div class="info-box bg-b-green">
+						          <div class="info-box bg-b-orange">
 						            <span class="info-box-icon push-bottom"><i class="material-icons">monetization_on</i></span>
 						            <div class="info-box-content">
 						              <span class="info-box-text">Total Coins</span>
@@ -61,7 +61,7 @@
 						        </div>
 						        <!-- /.col -->
 						        <div class="col-xl-3 col-md-6 col-12">
-						          <div class="info-box bg-b-green">
+						          <div class="info-box bg-b-purple">
 						            <span class="info-box-icon push-bottom"><i class="material-icons">monetization_on</i></span>
 						            <div class="info-box-content">
 						              <span class="info-box-text">Daily Coins</span>
@@ -79,7 +79,7 @@
 						        </div>
 						        <!-- /.col -->
 						        <div class="col-xl-3 col-md-6 col-12">
-						          <div class="info-box bg-b-green">
+						          <div class="info-box bg-b-purple">
 						            <span class="info-box-icon push-bottom"><i class="material-icons">monetization_on</i></span>
 						            <div class="info-box-content">
 						              <span class="info-box-text">Monthly</span>
@@ -97,7 +97,7 @@
 						        </div>
 						        <!-- /.col -->
 						        <div class="col-xl-3 col-md-6 col-12">
-						          <div class="info-box bg-b-green">
+						          <div class="info-box bg-b-purple">
 						            <span class="info-box-icon push-bottom"><i class="material-icons">monetization_on</i></span>
 						            <div class="info-box-content">
 						              <span class="info-box-text">Yearly</span>
